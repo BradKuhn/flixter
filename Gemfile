@@ -33,7 +33,7 @@ group :doc do
 end
 
 gem 'bootstrap-sass', '~> 3.3.4'
-
+gem 'devise'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
