@@ -33,7 +33,9 @@ group :doc do
 end
 
 gem 'dotenv-rails', :groups => [:development, :test]
-
+gem 'capybara', :groups => [:development, :test]
+gem 'selenium-webdriver', :groups => [:development, :test]
+gem 'factory_girl'
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'devise'
 gem 'simple_form'
