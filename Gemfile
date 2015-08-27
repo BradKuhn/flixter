@@ -32,6 +32,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'dotenv-rails', :groups => [:development, :test]
+
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'devise'
 gem 'simple_form'
